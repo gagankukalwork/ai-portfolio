@@ -111,7 +111,6 @@ ai-portfolio/
 
 ### UI Glimpse 2
 ![UI Glimpse 2](screenshots/ui-glimpse2.png)
-##  Installation & Setup
 
 ### 1️⃣ Clone Repository
 git clone https://github.com/gagankukalwork/ai-portfolio.git
