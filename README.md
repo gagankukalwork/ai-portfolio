@@ -95,20 +95,25 @@ ai-portfolio/
 ##  Screenshots
 
 ### Portfolio UI
-![UI](./frontend/screenshots/ui-glimpse.png)
+## Screenshots
+
+### Portfolio UI
+![UI](screenshots/ui-glimpse.png)
 
 ### AI Resume Chat
-![Chat](./frontend/screenshots/Ai-ResumeChat.png)
+![Chat](screenshots/Ai-ResumeChat.png)
 
 ### Resume Upload Feature
-![Upload](./frontend/screenshots/upload-resume.png)
+![Upload](screenshots/upload-resume.png)
 
 ### Contact / Message Section
-![Message](./frontend/screenshots/send-message.png)
+![Message](screenshots/send-message.png)
 
 ### Database Storage (Backend)
-![Database](./frontend/screenshots/database_behindTheScen.png)
+![Database](screenshots/database_behindTheScences.png)
 
+### UI Glimpse 2
+![UI Glimpse 2](screenshots/ui-glimpse2.png)
 ---
 
 ##  Installation & Setup
