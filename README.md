@@ -92,9 +92,6 @@ ai-portfolio/
 
 ---
 
-##  Screenshots
-
-### Portfolio UI
 ## Screenshots
 
 ### Portfolio UI
@@ -114,8 +111,6 @@ ai-portfolio/
 
 ### UI Glimpse 2
 ![UI Glimpse 2](screenshots/ui-glimpse2.png)
----
-
 ##  Installation & Setup
 
 ### 1️⃣ Clone Repository
