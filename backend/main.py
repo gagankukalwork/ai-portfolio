@@ -75,7 +75,7 @@ def chat(data: dict):
     if not question:
         raise HTTPException(status_code=400, detail="Question is required")
 
-    # ✅ Use uploaded resume if available
+    
     uploaded_resume = load_resume()
     resume_source = uploaded_resume if uploaded_resume else RESUME_CONTEXT
 
@@ -111,7 +111,7 @@ User Question: {question}
         raise HTTPException(status_code=502, detail="Failed to reach OpenRouter")
 
     if response.status_code != 200:
-        # Return OpenRouter error safely
+        
         raise HTTPException(status_code=502, detail=f"OpenRouter error: {response.text}")
 
     data_json = response.json()
@@ -120,7 +120,7 @@ User Question: {question}
     except Exception:
         raise HTTPException(status_code=502, detail="Unexpected OpenRouter response format")
 
-    # Save chat to DB
+    
     db: Session = SessionLocal()
     try:
         entry = Chat(question=question, answer=answer)
